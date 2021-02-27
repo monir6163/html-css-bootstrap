@@ -1,0 +1,372 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.header-text {
+    text-align: left;
+}
+.mainmenu{
+	font-size: 16px;
+	font-weight: 400;
+}
+.mainmenu ul{
+	list-style: none;
+	text-transform: uppercase;
+	margin-top: 35px;
+	font-family: 'Poiret One', cursive;
+}
+.mainmenu ul li{
+	display: inline-block;
+	padding: 15px;
+}
+.mainmenu ul li a{
+	text-decoration: none;
+	padding-left: 5px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+.mainmenu ul span{
+	padding-left: 26%;
+	color: #fff;
+	font-size: 20px;
+}
+.logo{
+	padding-top: 15px;
+}
+.main-slider-area{
+	position: relative;
+	height: 830px;
+}
+.top-header-bg{
+	background-image: url(../img/background1.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+.header-area::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	z-index: -1;
+	opacity: .3;
+	background-color: red;
+}
+.header-text h2{
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	margin-top: 60px;
+	font-size: 80px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	
+}
+.header-text p {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+.header-text button {
+    background: #fff;
+    color: #ff7f7f;
+    border-radius: 50px;
+    font-size: 22px;
+    padding: 8px 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border: 0;
+}
+.best-seller-bg {
+	background-color: #FFC2C2;
+    position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.best-seller{
+	position: relative;
+	height: 670px;
+}
+.best-seller-text {
+    text-align: center;
+    color: #fff;
+}
+.best-seller-text h2 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.best-seller-text p {
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.col-md-4.seller-text {
+    text-align: center;
+}
+.header-area {
+    background-image: url(../img/menu-bg.png);
+    opacity: .8;
+}
+.seller-text {
+    display: table-cell;
+    text-align: center;
+    padding: 25px 15px;
+    color: #fff;
+}
+.img img {
+    height: 70px;
+}
+.best-tasty{
+	position: relative;
+	height: 670px;
+	top: 50px;
+}
+.best-tasty-bg{
+	background-image: url(../img/background2.jpg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 85%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+.best-tasty-main img {
+    height: 75%;
+    padding: 52px 100px;
+}
+.tasty-text {
+    padding: 75px 40px;
+    color: #ff7f7f;
+}
+.tasty-text h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.tasty-text p {
+    font-size: 20px;
+}
+.tasty-text button {
+    background: #ff7f7f;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 8px 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border: 0;
+}
+.best-tasty-main {
+    padding-top: 25px;
+}
+.statistics {
+	position: relative;
+	top: -51px;
+    height: 700px
+}
+.statistics-bg {
+	background-color: #ff7f7f;
+    position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.statistics-area {
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+}
+.statistics-area h3 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.statistics-area img {
+    height: 60px;
+}
+.delicious img {
+    height: 60px;
+}
+.delicious-text {
+    padding-top: 75px;
+    color: #ff7f7f;
+}
+.delicious-text h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.delicious-text p {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.delicious-text button {
+    background: #ff7f7f;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 8px 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border: 0;
+}
+.delicious .img1 {
+    padding-left: 100%;
+}
+.delicious .img2 {
+    margin-top: -130px;
+    padding-left: 50px;
+}
+.delicious .img3 {
+    padding-left: 65%;
+}
+.delicious .img4 {
+    height: 62%;
+    padding-left: 20%;
+}
+.review{
+	position: relative;
+	height: 670px;
+	top: 50px;
+}
+.review-bg{
+	background-image: url(../img/background3.jpg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 85%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+.review-area {
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+.review-area img {
+    height: 53%;
+    padding-bottom: 40px;
+}
+.review-area p {
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+.review-area h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.footer {
+	position: relative;
+	top: -70px;
+	height: 250px;
+}
+.footer-bg {
+    background-color: #111111;
+    position: absolute;
+	top: 0;
+	left: 0;
+    height: 130%;
+	width: 100%;
+}
+.footer-area {
+    color: #fff;
+   padding: 100px 100px;
+}
+.footer-area ul li {
+	display: block;
+}
+.footer-area ul li a {
+    padding: 6px;
+    font-size: 18px;
+    color: #fff;
+}
+.footer-area ul li a:hover {
+	color: #ff7f7f;
+}
+.subscribe {
+    position: relative;
+    height: 460px;
+}
+.subscribe-bg{
+	background-image: url(../img/background4.jpg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 85%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+.subscribe-area img {
+    height: 40%;
+}
+.subscribe-area h3 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}
+.subscribe-area {
+    text-align: center;
+    color: #ff7f7f;
+}
+.subscribe-area p {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.subscribe-area button {
+    background: #ff7f7f;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 8px 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border: 0;
+}
+.subscribe-area input {
+    padding: 10px 60px;
+    color: #ff7f7f;
+    font-family: math;
+    height: 45px;
+    border-radius: 50px;
+}
+.round {
+    height: 300px;
+    width: 300px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    padding: 115px;
+    display: inline-block;
+}
+.round h5, .round p{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.mt-top{
+    margin-top: 80px;
+}
